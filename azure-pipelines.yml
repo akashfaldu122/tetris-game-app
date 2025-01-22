@@ -10,9 +10,9 @@ resources:
 
 variables:
   # Container registry service connection established during pipeline creation
-  dockerRegistryServiceConnection: 'c3b80d18-3537-4ac3-ab2e-ab6c5e541292'
+  dockerRegistryServiceConnection: 'e0f71209-4c28-48f9-8052-6760465ee8d9'
   imageRepository: 'acrougabrieltetrisgameapp'
-  containerRegistry: 'tetrisgameacr.azurecr.io'
+  containerRegistry: 'gamereg.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
   tag: '$(Build.BuildId)'
 
